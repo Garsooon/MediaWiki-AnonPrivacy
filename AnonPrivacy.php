@@ -25,7 +25,6 @@ class AnonPrivacy {
             return true;
         }
 
-        // Ensure $text is a string (convert array to string if needed)
         $text = is_array($text) ? implode(' ', $text) : $text;
 
         if ( array_key_exists( 'class', $attribs ) ) {
